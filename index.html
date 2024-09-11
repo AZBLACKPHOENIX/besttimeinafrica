@@ -108,9 +108,7 @@
                     <div class="p-3" style="max-width: 700px;">
                         <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Adventure Awaits</h6>
                         <h1 class="display-3 text-white mb-4 animated slideInDown">Experience the Wild Beauty of Africa</h1>
-                        <a href="tours.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Explore Tours</a>
-                        <a href="booking.html" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Book Your Safari</a>
-                    </div>
+                  </div>
                 </div>
             </div>
             <!-- Second Slide -->
@@ -120,9 +118,7 @@
                     <div class="p-3" style="max-width: 700px;">
                         <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Unforgettable Journeys</h6>
                         <h1 class="display-3 text-white mb-4 animated slideInDown">Discover Africa’s Majestic Wildlife</h1>
-                        <a href="destinations.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">View Destinations</a>
-                        <a href="booking.html" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Plan Your Adventure</a>
-                    </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -141,13 +137,27 @@
 
 
 
-       <!-- Booking Start -->
+<!-- Booking Start -->
 <div class="container-fluid booking pb-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container">
         <div class="bg-white shadow" style="padding: 35px;">
             <div class="row g-2">
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <div class="row g-2">
+                        <div class="col-md-4">
+                            <label for="fullName" class="form-label">Full Name</label>
+                            <input type="text" id="fullName" class="form-control" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Enter your email address" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="contactNumber" class="form-label">Contact Number</label>
+                            <input type="tel" id="contactNumber" class="form-control" placeholder="Enter your contact number" required>
+                        </div>
+                    </div>
+                    <div class="row g-2 mt-3">
                         <div class="col-md-2">
                             <input type="text" class="form-control" placeholder="From">
                         </div>
@@ -165,20 +175,12 @@
                             </div>
                         </div>
                         <div class="col-md-2">
-                            <select class="form-select">
-                                <option selected>Adult</option>
-                                <option value="1">Adult 1</option>
-                                <option value="2">Adult 2</option>
-                                <option value="3">Adult 3</option>
-                            </select>
+                            <label for="adultCount" class="form-label">Adults</label>
+                            <input type="number" id="adultCount" class="form-control" placeholder="Enter number of adults" min="0">
                         </div>
                         <div class="col-md-2">
-                            <select class="form-select">
-                                <option selected>Child</option>
-                                <option value="1">Child 1</option>
-                                <option value="2">Child 2</option>
-                                <option value="3">Child 3</option>
-                            </select>
+                            <label for="childCount" class="form-label">Children</label>
+                            <input type="number" id="childCount" class="form-control" placeholder="Enter number of children" min="0">
                         </div>
                         <div class="col-md-4 mt-2">
                             <select class="form-select">
@@ -190,7 +192,6 @@
                                 <option value="5">Family Tours</option>
                                 <option value="6">Special Luxury Transfers</option>
                                 <option value="7">Wedding</option>
-                              
                             </select>
                         </div>
                     </div>
@@ -323,7 +324,7 @@
                     <div class="p-4 mt-2">
                         <h5 class="mb-0">VW Minibus</h5>
                         <div class="d-flex mb-3">
-                            <small class="border-end me-3 pe-3"><i class="fa fa-car text-primary me-2"></i>12 Seats</small>
+                            <small class="border-end me-3 pe-3"><i class="fa fa-car text-primary me-2"></i>9 Seats</small>
                             <small class="border-end me-3 pe-3"><i class="fa fa-cogs text-primary me-2"></i>Manual</small>
                             <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                         </div>
@@ -342,7 +343,7 @@
                     <div class="p-4 mt-2">
                         <h5 class="mb-0">Toyota Quantum G</h5>
                         <div class="d-flex mb-3">
-                            <small class="border-end me-3 pe-3"><i class="fa fa-car text-primary me-2"></i>10 Seats</small>
+                            <small class="border-end me-3 pe-3"><i class="fa fa-car text-primary me-2"></i>11 Seats</small>
                             <small class="border-end me-3 pe-3"><i class="fa fa-cogs text-primary me-2"></i>Manual</small>
                             <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                         </div>
@@ -602,7 +603,7 @@
                 <h6 class="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
                 <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Enhlazeni, South Africa</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+27 79 737 8976</p>
-                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@besttimeafrica.com</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@besttimeinafricasafaris.com</p>
                 <div class="d-flex pt-2">
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -618,14 +619,14 @@
                         <a class="btn btn-link" href="">Contact Us</a>
                         <a class="btn btn-link" href="Privacy Policy.pdf">Privacy Policy</a>
                         <a class="btn btn-link" href="Terms and Conditions.pdf">Terms & Conditions</a>
-                        <a class="btn btn-link" href="">Support</a>
+                        <a class="btn btn-link" href="emailto:support@besttimeinafricasafaris.com">Support</a>
                     </div>
                     <div class="col-md-6">
                         <h6 class="section-title text-start text-primary text-uppercase mb-4">Our Services</h6>
+                        <a class="btn btn-link" href="">Safari Tour</a>
                         <a class="btn btn-link" href="">Luxury Transportation</a>
                         <a class="btn btn-link" href="">Family Tours</a>
                         <a class="btn btn-link" href="">Wedding & Event Transport</a>
-                        <a class="btn btn-link" href="">Funeral Transport</a>
                         <a class="btn btn-link" href="">Convenience & Comfort</a>
                     </div>
                 </div>
@@ -642,7 +643,7 @@
                     <div class="footer-menu">
                         <a href="">Home</a>
                         <a href="">Cookies</a>
-                        <a href="">Help</a>
+                        <a href="emailto:support@besttimeinafricasafaris.com">Help</a>
                         <a href="faq.html">FAQs</a>
                     </div>
                 </div>

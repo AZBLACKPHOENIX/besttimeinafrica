@@ -114,14 +114,27 @@
 
 
        
-
-       <!-- Booking Start -->
+<!-- Booking Start -->
 <div class="container-fluid booking pb-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container">
         <div class="bg-white shadow" style="padding: 35px;">
             <div class="row g-2">
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <div class="row g-2">
+                        <div class="col-md-4">
+                            <label for="fullName" class="form-label">Full Name</label>
+                            <input type="text" id="fullName" class="form-control" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Enter your email address" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="contactNumber" class="form-label">Contact Number</label>
+                            <input type="tel" id="contactNumber" class="form-control" placeholder="Enter your contact number" required>
+                        </div>
+                    </div>
+                    <div class="row g-2 mt-3">
                         <div class="col-md-2">
                             <input type="text" class="form-control" placeholder="From">
                         </div>
@@ -139,20 +152,12 @@
                             </div>
                         </div>
                         <div class="col-md-2">
-                            <select class="form-select">
-                                <option selected>Adult</option>
-                                <option value="1">Adult 1</option>
-                                <option value="2">Adult 2</option>
-                                <option value="3">Adult 3</option>
-                            </select>
+                            <label for="adultCount" class="form-label">Adults</label>
+                            <input type="number" id="adultCount" class="form-control" placeholder="Enter number of adults" min="0">
                         </div>
                         <div class="col-md-2">
-                            <select class="form-select">
-                                <option selected>Child</option>
-                                <option value="1">Child 1</option>
-                                <option value="2">Child 2</option>
-                                <option value="3">Child 3</option>
-                            </select>
+                            <label for="childCount" class="form-label">Children</label>
+                            <input type="number" id="childCount" class="form-control" placeholder="Enter number of children" min="0">
                         </div>
                         <div class="col-md-4 mt-2">
                             <select class="form-select">
@@ -164,7 +169,6 @@
                                 <option value="5">Family Tours</option>
                                 <option value="6">Special Luxury Transfers</option>
                                 <option value="7">Wedding</option>
-                               
                             </select>
                         </div>
                     </div>
@@ -177,6 +181,8 @@
     </div>
 </div>
 <!-- Booking End -->
+
+
 
 <!-- About Start -->
 <div class="container-xxl py-5">
@@ -191,7 +197,7 @@
                         <div class="border rounded p-1">
                             <div class="border rounded text-center p-4">
                                 <i class="fa fa-bus fa-2x text-primary mb-2"></i>
-                                <h2 class="mb-1" data-toggle="counter-up">2</h2>
+                                <h2 class="mb-1" data-toggle="counter-up">7</h2>
                                 <p class="mb-0">Transfer Vehicles</p>
                             </div>
                         </div>
@@ -229,7 +235,7 @@
                         <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/safari-3.jpg">
                     </div>
                     <div class="col-6 text-start">
-                        <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/safari-2.jpg">
+                        <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/logo.png">
                     </div>
                 </div>
             </div>
@@ -342,6 +348,7 @@
 </div>
 <!-- Newsletter Start -->
 
+
 <!-- Footer Start -->
 <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
     <div class="container pb-5">
@@ -358,7 +365,7 @@
                 <h6 class="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
                 <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Enhlazeni, South Africa</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+27 79 737 8976</p>
-                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@besttimeafrica.com</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@besttimeinafricasafaris.com</p>
                 <div class="d-flex pt-2">
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -372,16 +379,16 @@
                         <h6 class="section-title text-start text-primary text-uppercase mb-4">Company</h6>
                         <a class="btn btn-link" href="">About Us</a>
                         <a class="btn btn-link" href="">Contact Us</a>
-                        <a class="btn btn-link" href="">Privacy Policy</a>
-                        <a class="btn btn-link" href="">Terms & Conditions</a>
-                        <a class="btn btn-link" href="">Support</a>
+                        <a class="btn btn-link" href="Privacy Policy.pdf">Privacy Policy</a>
+                        <a class="btn btn-link" href="Terms and Conditions.pdf">Terms & Conditions</a>
+                        <a class="btn btn-link" href="emailto:support@besttimeinafricasafaris.com">Support</a>
                     </div>
                     <div class="col-md-6">
                         <h6 class="section-title text-start text-primary text-uppercase mb-4">Our Services</h6>
+                        <a class="btn btn-link" href="">Safari Tour</a>
                         <a class="btn btn-link" href="">Luxury Transportation</a>
                         <a class="btn btn-link" href="">Family Tours</a>
                         <a class="btn btn-link" href="">Wedding & Event Transport</a>
-                        <a class="btn btn-link" href="">Funeral Transport</a>
                         <a class="btn btn-link" href="">Convenience & Comfort</a>
                     </div>
                 </div>
@@ -398,8 +405,8 @@
                     <div class="footer-menu">
                         <a href="">Home</a>
                         <a href="">Cookies</a>
-                        <a href="">Help</a>
-                        <a href="">FAQs</a>
+                        <a href="emailto:support@besttimeinafricasafaris.com">Help</a>
+                        <a href="faq.html">FAQs</a>
                     </div>
                 </div>
             </div>
